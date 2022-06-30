@@ -1,0 +1,111 @@
+@import "variables";
+.main-container {
+  padding: 1em 1em;
+  background: #f0f2f5;
+  height: 100%;
+  .head {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+      font-weight: 600;
+    }
+  }
+  .lnndaO {
+    white-space: break-spaces !important;
+  }
+}
+.rdt_TableCell [data-tag="allowRowEvents"] {
+  white-space: break-spaces !important;
+}
+select,
+input {
+  width: 100%;
+  border-radius: 5px;
+  height: 2.2em;
+  border: solid 1px #d0caca;
+  cursor: pointer;
+  outline: none;
+}
+select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+.primary-button {
+  background: red;
+  border-radius: 8px;
+  width: 8em;
+  color: white;
+  border-width: 0;
+}
+.text-center {
+  text-align: center !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-red {
+  color: $common-red !important;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  .button-function {
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+    padding: 1em 1em;
+    .primary-button {
+      width: 5.5em;
+      border-radius: 0;
+    }
+    .secondary-button {
+      width: 5.5em;
+      border: solid 1px red;
+      background: white;
+      color: red;
+      height: 2.5em;
+      cursor: pointer;
+    }
+  }
+}
+
+.rdt_Pagination {
+  gap: 1em;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+  background: white;
+  color: black;
+  padding: 2em 1em;
+  .modal-title {
+    font-weight: 600;
+  }
+  .close {
+    border: none;
+    background: white;
+    span {
+      font-size: 25px;
+      color: grey;
+    }
+  }
+}
+.modal-body {
+  max-height: 26rem;
+  overflow: auto;
+}
+.modal-sm {
+  max-width: 45em;
+}
