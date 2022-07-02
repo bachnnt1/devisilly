@@ -1,0 +1,84 @@
+.home-boundary {
+  overflow-y: auto;
+  max-height: 97vh;
+  position: relative;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em 1em 1em;
+}
+.top .logo-game {
+  height: 5em;
+}
+.top .icon {
+  height: 1em;
+  width: 1em;
+  cursor: pointer;
+}
+.top .login {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  background: linear-gradient(180deg, #ff9e00 0%, #ff6d00 100%);
+  border-radius: 18px;
+  padding: 5px 21px;
+  cursor: pointer;
+}
+.end {
+  position: absolute;
+  margin-top: -12rem;
+  display: flex;
+  align-items: center;
+  gap: 3em;
+}
+.left-end img {
+  height: 12em;
+}
+.left-end .group-pair {
+  display: grid;
+  grid-template-columns: 10em 13em 10em;
+  padding: 0 2em;
+  margin-top: -7.5rem;
+  position: absolute;
+  gap: 1em;
+}
+.left-end .head {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  color: #ff7700;
+}
+.left-end .foot {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #828282;
+}
+
+.left-end .center-pair {
+  border-left: 1px solid #bdbdbd;
+  border-right: 1px solid #bdbdbd;
+  padding-left: 22px;
+}
+.right-end {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.bottom-title {
+  margin-top: 1em;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  color: #f2f2f2;
+}
